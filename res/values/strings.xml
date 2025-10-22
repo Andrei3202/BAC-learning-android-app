@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProiectFinal</string>
+    <string name="text1">Romana</string>
+    <string name="text2">Matematica</string>
+    <string name="text3">Informatica</string>
+    <string name="text4">Fizica</string>
+    <string name="text5">Ion</string>
+    <string name="text6">Fizica</string>
+    <string name="text7">Vezi bibliografia autorului</string>
+    <string name="text8">Alege opera</string>
+    <string name="Fizică_text">Fizică</string>
+    <string name="rasp_d_text">Rasp D</string>
+    <string name="rasp_c_text">Rasp C</string>
+    <string name="rasp_b_text">Rasp B</string>
+    <string name="rasp_a_text">Rasp A</string>
+    <string name="intrebare_text">Intrebare</string>
+    <string name="scor_text">Scor</string>
+</resources>

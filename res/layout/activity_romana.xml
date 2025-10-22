@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".Romana">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:text="@string/text5"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="392dp"
+        android:layout_height="512dp"
+        android:text="Incipitul prezintă progresiv drumul de intrare în satul Pripas. Naratorul îl descrie într-o o zi devară. Se amintește de casa lui Zaharia Herdelea, învățătorul din sat, cât și de casa luiGlanetașu. Fiind zi de sărbătoare, este horă în sat, lăutarii dându-și silința să cânte cât mai bine.Tinerii joacă în timp ce bătrânii stau și îi privesc. Ion se întâlnește cu Ana într-un loc mai ascuns,moment în care Vasile Baciu se ia la ceartă cu el. Familia învățătorului este și ea prezentă lahoră, întreținându-se cu preotul Belciug. Conflictul se termină, grupul lui Ion și cel al lui George mutându-se la cârciumă. Aici cei doi sebat, certându-se din cauza plății lăutarilor. Titu, fiul învățătorului, încearcă sa-l descoase pe Iondar nu are succes. Ion pleacă a doua zi la câmp. Aveau puțin pământ, deoarece tatăl sau își bătuse joc de zestreamamei, fiind un mare petrecăreț. Ajuns la lotul său de pământ, se apuca de cosit. O vede pe Ana dar nu vorbește mult cu ea. Se gândește la ea doar când vine vorba de avere și în specialde pământul pe care aceasta l-ar primi zestre daca s-ar mărita, el iubind-o pe Florica, o fatafrumoasă dar săracă. Când ajunge la tatăl ei, Ana este întrebată cu cine a vorbit, tatăl eineagreându-l pe Ion.  ION , de Liviu Rebreanu- rezumat pe capitole -GLASUL PĂMÂNTULUICapitolul 1: ÎnceputulIncipitul prezintă progresiv drumul de intrare în satul Pripas. Naratorul îl descrie într-o o zi devară. Se amintește de casa lui Zaharia Herdelea, învățătorul din sat, cât și de casa luiGlanetașu. Fiind zi de sărbătoare, este horă în sat, lăutarii dându-și silința să cânte cât mai bine.Tinerii joacă în timp ce bătrânii stau și îi privesc. Ion se întâlnește cu Ana într-un loc mai ascuns,moment în care Vasile Baciu se ia la ceartă cu el. Familia învățătorului este și ea prezentă lahoră, întreținându-se cu preotul Belciug.Conflictul se termină, grupul lui Ion și cel al lui George mutându-se la cârciumă."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <Button
+        android:id="@+id/clickBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0F9D58"
+        android:text="@string/text8"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+
+    <Button
+        android:id="@+id/clickBtn2"
+        android:layout_width="212dp"
+        android:layout_height="54dp"
+        android:background="#0F9D58"
+        android:text="@string/text7"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Luceafarul"
+        android:title="Luceafarul" />
+    <item
+        android:id="@+id/HarapAlb"
+        android:title="Povestea lui Harap Alb" />
+    <item
+        android:id="@+id/Ion"
+        android:title="Ion" />
+    <item
+        android:id="@+id/Morometi"
+        android:title="Morometi" />
+    <item
+        android:id="@+id/Scrisoare"
+        android:title="O scrisoare pierduta" />
+</menu>

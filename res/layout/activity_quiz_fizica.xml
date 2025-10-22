@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg7">
+    <TextView
+        android:id="@+id/tvScor"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginRight="300dp"
+        android:textSize="32dp"
+        android:text="@string/scor_text"
+        android:textColor="#0009ff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvIntrebare"
+        android:layout_width="231dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="169dp"
+        android:text="@string/intrebare_text"
+        android:textColor="#0009ff"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvIntrebare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClicked"
+            android:text="@string/rasp_a_text"
+            android:textSize="32dp"
+            android:textColor="#fff"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClicked"
+            android:text="@string/rasp_b_text"
+            android:textSize="32dp"
+            android:textColor="#fff"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="radioButtonClicked"
+            android:text="@string/rasp_c_text"
+            android:textSize="32dp"
+            android:textColor="#fff"/>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:onClick="radioButtonClicked"
+            android:text="@string/rasp_d_text"
+            android:textSize="32dp"
+            android:textColor="#fff"/>
+    </RadioGroup>
+</RelativeLayout>

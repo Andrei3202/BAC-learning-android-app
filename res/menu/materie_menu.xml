@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Romana"
+        android:title="Romana" />
+    <item
+        android:id="@+id/Matematica"
+        android:title="Matematica" />
+    <item
+        android:id="@+id/Informatica"
+        android:title="Informatica" />
+    <item
+        android:id="@+id/Fizica"
+        android:title="Fizica" />
+</menu>
